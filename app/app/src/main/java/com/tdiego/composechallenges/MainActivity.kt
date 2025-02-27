@@ -11,6 +11,7 @@ import androidx.compose.material3.Scaffold
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
+import androidx.compose.ui.unit.dp
 import com.tdiego.composechallenges.shimmering_card.ShimmeringCard
 
 class MainActivity : ComponentActivity() {
@@ -26,9 +27,9 @@ class MainActivity : ComponentActivity() {
 @Composable
 fun App() {
     Scaffold(modifier = Modifier.fillMaxSize()) { p ->
-        Column {
+        Column(Modifier.padding(p).padding(vertical = 24.dp)) {
             repeat(4) {
-                ShimmeringCard(Modifier.padding(p))
+                ShimmeringCard()
             }
         }
     }
