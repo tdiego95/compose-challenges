@@ -18,7 +18,7 @@ This project is a personal archive of UI components built with Jetpack Compose. 
 
 | Component | Branch |
 |-----------|--------|
-| **Skeleton Loader** | [loading-skeleton](https://github.com/tdiego95/compose-challenges/tree/loading-skeleton) |
+| **Shimmering Card** | [loading-skeleton](https://github.com/tdiego95/compose-challenges/tree/loading-skeleton) |
 
 📌 **More components coming soon!**
 
