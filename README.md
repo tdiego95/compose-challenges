@@ -7,10 +7,10 @@ This project is a personal archive of UI components built with Jetpack Compose. 
 ---
 
 ## 🚀 How It Works
-1. Each experiment has a **dedicated branch** with a detailed description in `README.md`.
-2. The focus is on learning and experimenting with Jetpack Compose.
-3. Each experiment includes a screenshot of the final result for reference.
-4. The repository will grow as I explore new ideas and UI solutions.
+- Each experiment has a **dedicated branch** with a detailed description in `README.md`.
+- The focus is on learning and experimenting with Jetpack Compose.
+- Each experiment includes a screenshot of the final result for reference.
+- The repository will grow as I explore new ideas and UI solutions.
 
 ---
 
