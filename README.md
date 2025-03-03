@@ -18,7 +18,7 @@ This project is a personal archive of UI components built with Jetpack Compose. 
 
 | Component           | Branch                                                                                 |
 |---------------------|----------------------------------------------------------------------------------------|
-| **Flippable Card**  | [flippable-card](https://github.com/tdiego95/compose-challenges/tree/loading-button)   |
+| **Flippable Card**  | [flippable-card](app/app/src/main/java/com/tdiego/composechallenges/flippable_card)    |
 | **Shimmering Card** | [loading-skeleton](app/app/src/main/java/com/tdiego/composechallenges/shimmering_card) |
 | **Loading Button**  | [loading-button](app/app/src/main/java/com/tdiego/composechallenges/loading_button)    |
 
