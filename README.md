@@ -7,20 +7,19 @@ This project is a personal archive of UI components built with Jetpack Compose. 
 ---
 
 ## 🚀 How It Works
-- Each experiment has a **dedicated branch** with a detailed description in `README.md`.
 - The focus is on learning and experimenting with Jetpack Compose.
-- Each experiment includes a screenshot of the final result for reference.
+- Each experiment is organized in its own folder, containing a `README.md` file and a screenshot or GIF for preview.
 - The repository will grow as I explore new ideas and UI solutions.
 
 ---
 
 ## 🎨 Created UI Components
 
-| Component           | Branch                                                                                 |
-|---------------------|----------------------------------------------------------------------------------------|
-| **Flippable Card**  | [flippable-card](app/app/src/main/java/com/tdiego/composechallenges/flippable_card)    |
-| **Shimmering Card** | [loading-skeleton](app/app/src/main/java/com/tdiego/composechallenges/shimmering_card) |
-| **Loading Button**  | [loading-button](app/app/src/main/java/com/tdiego/composechallenges/loading_button)    |
+| Links |
+|--------------------------------------------------------------------------------------------|
+| [**Flippable Card**](app/app/src/main/java/com/tdiego/composechallenges/flippable_card)    |
+| [**Shimmering Card**](app/app/src/main/java/com/tdiego/composechallenges/shimmering_card)  |
+| [**Loading Button**](app/app/src/main/java/com/tdiego/composechallenges/loading_button)    |
 
 📌 **More components coming soon!**
 
