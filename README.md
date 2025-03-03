@@ -1,6 +1,30 @@
-# ✨ Loading Button
+# Jetpack Compose UI Experiments 🚀
 
-This component is a **LoadingButton**, a dynamic button with three states: text, loading with a circular progress bar, and success with a check animation!
+Welcome to my **Jetpack Compose UI Experiments** repository! 🎨🔥
 
-## 📸 Preview
-![Loading Button Animation](./app/preview/loading_button.gif)
+This project is a personal archive of UI components built with Jetpack Compose. Each experiment is an opportunity to practice, improve my skills, and create a collection of cool and reusable UI components.
+
+---
+
+## 🚀 How It Works
+- Each experiment has a **dedicated branch** with a detailed description in `README.md`.
+- The focus is on learning and experimenting with Jetpack Compose.
+- Each experiment includes a screenshot of the final result for reference.
+- The repository will grow as I explore new ideas and UI solutions.
+
+---
+
+## 🎨 Created UI Components
+
+| Component           | Branch                                                                                   |
+|---------------------|------------------------------------------------------------------------------------------|
+| **Flippable Card**  | [flippable-card](https://github.com/tdiego95/compose-challenges/tree/loading-button)     |
+| **Shimmering Card** | [loading-skeleton](https://github.com/tdiego95/compose-challenges/tree/loading-skeleton) |
+| **Loading Button**  | [loading-button](https://github.com/tdiego95/compose-challenges/tree/loading-button)     |
+
+📌 **More components coming soon!**
+
+---
+
+🚀 **Let's build awesome UI with Compose!**
+
