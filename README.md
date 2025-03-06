@@ -20,6 +20,7 @@ This project is a personal archive of UI components built with Jetpack Compose. 
 | [**Flippable Card**](app/app/src/main/java/com/tdiego/composechallenges/flippable_card)    |
 | [**Shimmering Card**](app/app/src/main/java/com/tdiego/composechallenges/shimmering_card)  |
 | [**Loading Button**](app/app/src/main/java/com/tdiego/composechallenges/loading_button)    |
+| [**Swipe To Reply Card**](app/app/src/main/java/com/tdiego/composechallenges/swipe_to_reply_card)    |
 
 📌 **More components coming soon!**
 
