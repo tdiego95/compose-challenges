@@ -27,7 +27,10 @@ import androidx.compose.material3.ripple
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.SideEffect
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
+import androidx.compose.runtime.setValue
 import androidx.compose.runtime.snapshotFlow
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
@@ -52,6 +55,8 @@ fun SwipeToReplyCard(
 ) {
 
     val density = LocalDensity.current
+    val colors = listOf(Color.Red, Color.Gray, Color.Blue, Color.Magenta)
+    var cardColor by remember { mutableStateOf(Color.Gray) }
 
     val draggableState = remember {
         AnchoredDraggableState(
@@ -78,6 +83,7 @@ fun SwipeToReplyCard(
             .collectLatest {
                 if (it == DragAnchors.Dragging) {
                     draggableState.animateTo(DragAnchors.Resting)
+                    cardColor = colors.filter { c -> c != cardColor }.random()
                 }
             }
     }
@@ -112,7 +118,11 @@ fun SwipeToReplyCard(
                     orientation = Orientation.Horizontal,
                 )
                 .offset {
-                    IntOffset(x = draggableState.requireOffset().roundToInt(), y = 0)
+                    IntOffset(
+                        x = draggableState
+                            .requireOffset()
+                            .roundToInt(), y = 0
+                    )
                 }
                 .fillMaxHeight()
                 .clip(
@@ -120,7 +130,7 @@ fun SwipeToReplyCard(
                         topStart = 14.dp, topEnd = 20.dp, bottomEnd = 20.dp, bottomStart = 6.dp
                     )
                 )
-                .background(Color(0xFF8D8D8D))
+                .background(cardColor)
                 .combinedClickable(
                     onClick = { },
                     indication = ripple(),
