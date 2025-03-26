@@ -28,5 +28,8 @@ This project is a personal archive of UI components built with Jetpack Compose. 
 
 ---
 
-🛠️ **Let's build awesome UI with Compose!**
+## ☕️ Support
+If you found this helpful or interesting, please consider supporting me on Ko-fi:
+https://ko-fi.com/diegoturchi
+
 
