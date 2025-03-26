@@ -21,6 +21,7 @@ This project is a personal archive of UI components built with Jetpack Compose. 
 | [**Shimmering Card**](app/app/src/main/java/com/tdiego/composechallenges/shimmering_card)  |
 | [**Loading Button**](app/app/src/main/java/com/tdiego/composechallenges/loading_button)    |
 | [**Swipe To Reply Card**](app/app/src/main/java/com/tdiego/composechallenges/swipe_to_reply_card)    |
+| [**Swipe To Action Card**](app/app/src/main/java/com/tdiego/composechallenges/swipe_to_action_card)    |
 | [**Confetti Explosion Effect**](app/app/src/main/java/com/tdiego/composechallenges/confetti_explosion)    |
 
 📌 **More components coming soon!**
